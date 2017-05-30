@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Jservlet</title>
+    <title>Test</title>
 </head>
 <body>
-    <%--${textA}--%>
-    <%--${textB}--%>
+    ${textA}
+    ${textB}
 </body>
 </html>
