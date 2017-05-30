@@ -19,9 +19,7 @@ public class FServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
             throws ServletException, IOException {
-//        httpServletResponse.setContentType("text/html");
-//        PrintWriter out = httpServletResponse.getWriter();
-//        out.println("Hello World");
+        httpServletResponse.setContentType("text/html");
         String varTextA = "Hello World";
         httpServletRequest.setAttribute("textA", varTextA);
         String varTextB = "Its JSP";
